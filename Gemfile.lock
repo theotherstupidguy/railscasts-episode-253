@@ -50,6 +50,9 @@ GEM
       mongoid
     connection_pool (1.2.0)
     erubis (2.7.0)
+    foundation-rails (5.0.3.1)
+      railties (>= 3.1.0)
+      sass (>= 3.2.0)
     hike (1.2.3)
     i18n (0.6.9)
     json (1.8.1)
@@ -88,6 +91,7 @@ GEM
       thor (>= 0.18.1, < 2.0)
     rake (10.1.1)
     rmagick (2.13.2)
+    sass (3.2.14)
     sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -113,6 +117,7 @@ DEPENDENCIES
   bson_ext
   carrierwave
   carrierwave-mongoid
+  foundation-rails
   mocha
   mongoid (~> 4.0.0.beta1)!
   nifty-generators
